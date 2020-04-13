@@ -2,7 +2,7 @@ import os
 import sys 
 
 # This is used to sum items in array
-# any array that is given will print out the to
+# any array that is given will be summed and the total will be printed out
 
 array1 = [1,2,3,4,5]
 
