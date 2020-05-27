@@ -40,7 +40,9 @@ def create_sec_group(SECURITY_GROUP_NAME, DESCRIPTION, CIDR_IP_1, VPC_ID, IP_PRO
             ]
         )
         print('Egress Successfully Set %s' % egress_rule)
-        print("")
+        print(""),
+        
+
     except ClientError as e:
         print(e)
 

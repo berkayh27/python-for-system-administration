@@ -12,6 +12,17 @@ def create_key(key_name_from_user):
     response = ec2.create_key_pair(
         KeyName=key_name_from_user,
         DryRun=False,
+        TagSpecifications = [
+            {
+                'ResourceType': 'key-pair',
+                'Tags': [
+                    {
+                        'Key': 'Name',
+                        'Value': 'Boto3'
+                    },
+                ]
+            },
+        ],
     )
     print(response)
 
