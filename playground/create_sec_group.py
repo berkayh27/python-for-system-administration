@@ -6,7 +6,11 @@ from botocore.exceptions import ClientError
 
 
 ec2 = boto3.client('ec2')
-def create_sec_group(SECURITY_GROUP_NAME, DESCRIPTION, CIDR_IP_1, VPC_ID, IP_PROTOCOL_1,FROM_PORT_1,TO_PORT_1):
+def create_sec_group(
+    SECURITY_GROUP_NAME, 
+    DESCRIPTION, CIDR_IP_1, 
+    VPC_ID, IP_PROTOCOL_1,
+    FROM_PORT_1,TO_PORT_1):
     response = ec2.describe_vpcs()
     vpc_id = VPC_ID
     try:
@@ -45,4 +49,3 @@ def create_sec_group(SECURITY_GROUP_NAME, DESCRIPTION, CIDR_IP_1, VPC_ID, IP_PRO
 
     except ClientError as e:
         print(e)
-
