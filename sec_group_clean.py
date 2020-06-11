@@ -59,4 +59,4 @@ finally:
 # Finalizes by substracting sec groups
 idle_sg = sg_set - instance_sg_set - elb_set - redis_set
 print("These are idle sec groups" + "=" + str(idle_sg))
-print("Above is the %d idle sec groups", % lens(idle_sg))
+print("Above is the %d idle sec groups" % len(idle_sg))

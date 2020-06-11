@@ -1,6 +1,8 @@
 import boto3 
 import time
-# Below code goes thru all the sec groups in AWS and checks if the sec groups are idle or attached. If it is idle, gives you a list 
+# Below code goes thru all the sec groups in AWS and checks if the sec groups are idle or attached. 
+# If it is idle, gives you a list 
+
 ec2 = boto3.client("ec2")
 elb = boto3.client('elb')
 redis = boto3.client("elasticache")
@@ -63,11 +65,15 @@ print("These are idle sec groups" + "=" + str(idle_sg))
 print("Above is the %d idle sec groups" % len(idle_sg))
 
 idle_sg_list = list(idle_sg)
-print(idle_sg_list)
+print(type(idle_sg_list))
+
 
 for i in idle_sg_list:
-    response = ec2.describe_security_groups(i)
-    print(response)
+  response = ec2.describe_security_groups(GroupIds = idle_sg_list)
+  IP_RANGE = response.get('SecurityGroups')[1].get("IpPermissions")[0].get("IpRanges")[0].get("CidrIp")
+  print(IP_RANGE, i)
+
+
 
 # Delete security group
 # # This will keep track of deleted sec groups. It can not be in for loop it should be outside of for loop to keep track of each
