@@ -75,10 +75,8 @@ for i in idle_sg_list:
   for i in list_of_sec_in_details:
     GroupNames = i.get("GroupName")
     GroupID = i.get("GroupId")
-    RANGE = i.get("IpPermissions")[0].get("IpRanges")
-    PORT_RANGE = i.get("IpPermissions")[0].get("FromPort")
 
-    print("Name", GroupNames, GroupID, RANGE, PORT_RANGE)
+    print(GroupNames, GroupID)
 
     
   # IP_RANGE = response.get('SecurityGroups')[1].get("IpPermissions")[0].get("IpRanges")[0].get("CidrIp")
