@@ -67,13 +67,16 @@ print("Above is the %d idle sec groups" % len(idle_sg))
 idle_sg_list = list(idle_sg)
 response = ec2.describe_security_groups(GroupIds = idle_sg_list)
 response = response.get("SecurityGroups")
+
+TARGET_TO_FIND = "0.0.0.0"
 for i in response:
   GroupName = i.get("GroupName")
   GroupId = i.get("GroupId")
   NEWLIST = i.get("IpPermissions")
   for i in NEWLIST:
     something = i.get("IpRanges")
-    print(GroupName, GroupId, something)
+    if TARGET_TO_FIND in something:
+      print(GroupName, GroupId, something)
 
 
 
