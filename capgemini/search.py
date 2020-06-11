@@ -70,8 +70,10 @@ response = response.get("SecurityGroups")
 for i in response:
   GroupName = i.get("GroupName")
   GroupId = i.get("GroupId")
-  IpPermissions = i.get("IpPermissions")[0].get("IpRanges")
-  print(GroupName, GroupId, IpPermissions)
+  NEWLIST = i.get("IpPermissions")
+  for i in NEWLIST:
+    something = i.get("IpRanges")
+    print(GroupName, GroupId, something)
 
 
 
