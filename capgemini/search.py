@@ -65,24 +65,17 @@ print("These are idle sec groups" + "=" + str(idle_sg))
 print("Above is the %d idle sec groups" % len(idle_sg))
 
 idle_sg_list = list(idle_sg)
-print(type(idle_sg_list))
+response = ec2.describe_security_groups(GroupIds = idle_sg_list)
+response = response.get("SecurityGroups")
+for i in response:
+  GroupName = i.get("GroupName")
+  GroupId = i.get("GroupId")
+  IpPermissions = i.get("IpPermissions")[0]
+  Ports_used = IpPermissions.get("FromPort")
+  IPRANGE = IpPermissions.get("IpRanges")
 
-
-for i in idle_sg_list:
-  response = ec2.describe_security_groups(GroupIds = idle_sg_list)
-  list_of_sec_in_details = response.get('SecurityGroups')
-  print(list_of_sec_in_details)
-  for i in list_of_sec_in_details:
-    GroupNames = i.get("GroupName")
-    GroupID = i.get("GroupId")
-
-    print(GroupNames, GroupID)
-
-    
-  # IP_RANGE = response.get('SecurityGroups')[1].get("IpPermissions")[0].get("IpRanges")[0].get("CidrIp")
-  # SEC_GROUP_NAME = response.get('SecurityGroups')[1].get("GroupName")
-  # PORTS = response.get('SecurityGroups')[1].get("IpPermissions")[0].get("FromPort")
-  # print("ID", i, IP_RANGE, "Name", SEC_GROUP_NAME, PORTS)
+  
+  print(GroupName, GroupId, Ports_used, IPRANGE)
 
 
 
