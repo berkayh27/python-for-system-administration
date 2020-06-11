@@ -71,7 +71,10 @@ print(type(idle_sg_list))
 for i in idle_sg_list:
   response = ec2.describe_security_groups(GroupIds = idle_sg_list)
   IP_RANGE = response.get('SecurityGroups')[1].get("IpPermissions")[0].get("IpRanges")[0].get("CidrIp")
-  print(IP_RANGE, i)
+  SEC_GROUP_NAME = response.get('SecurityGroups')[1].get("GroupName")
+  PORTS = response.get('SecurityGroups')[1].get("IpPermissions")[0].get("FromPort")
+
+  print("ID", i, IP_RANGE, "Name", SEC_GROUP_NAME, PORTS)
 
 
 
