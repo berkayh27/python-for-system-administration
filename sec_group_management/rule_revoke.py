@@ -1,7 +1,10 @@
 import boto3 
 # This script below takes a sec group ID in line 5 and takes a list of ports that has 0.0.0.0/0 ports open and removes the rules
 
-ec2 = boto3.resource('ec2')
+# Tell which region to work on 
+ec2 = boto3.resource('ec2', region_name='eu-central-1')
+
+# Tell which sec group to work on 
 security_group = ec2.SecurityGroup('sg-3a47b855')
 
 # List of ports to check and remove
@@ -21,4 +24,4 @@ for i in LIST_OF_PORTS:
                 ],
             },
         ],
-    )s
+    )
