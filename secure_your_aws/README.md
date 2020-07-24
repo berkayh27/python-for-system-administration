@@ -25,4 +25,4 @@
 
 
 
-<a href="https://asciinema.org/a/dtXcoxgpPhXSRW60s7cluMRro?autoplay=1"><img src="https://asciinema.org/a/dtXcoxgpPhXSRW60s7cluMRro.png" width="1200" height="200"/></a>
+<a href="https://asciinema.org/a/dtXcoxgpPhXSRW60s7cluMRro?autoplay=1"><img src="https://asciinema.org/a/dtXcoxgpPhXSRW60s7cluMRro.png" /></a>
