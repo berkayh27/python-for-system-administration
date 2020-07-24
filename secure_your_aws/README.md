@@ -25,3 +25,5 @@
 
 
 [![asciicast](https://asciinema.org/a/dtXcoxgpPhXSRW60s7cluMRro.png)](https://asciinema.org/a/dtXcoxgpPhXSRW60s7cluMRro)
+
+<a href="https://asciinema.org/a/dtXcoxgpPhXSRW60s7cluMRro?autoplay=1"><img src="https://asciinema.org/a/dtXcoxgpPhXSRW60s7cluMRro.png" width="836"/></a>
