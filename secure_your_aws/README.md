@@ -1,3 +1,5 @@
+![img](image/secure.jpg)
+
 # This repo is used for securing AWS
 ## It deals with:
 1. AWS Password Policy
