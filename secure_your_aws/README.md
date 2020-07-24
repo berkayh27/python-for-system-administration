@@ -1,4 +1,3 @@
-![](./images/secure.jpg)
 <img src="./images/secure.jpg" width="1200" />
 
 # This repo is used for securing AWS
