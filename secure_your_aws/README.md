@@ -1,4 +1,4 @@
-![](./images/secure.jpg =250x)
+![](./images/secure.jpg)
 
 # This repo is used for securing AWS
 ## It deals with:
