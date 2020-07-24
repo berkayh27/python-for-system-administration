@@ -1,4 +1,4 @@
-![AWS](https://github.com/farrukh90/python-for-system-administration/blob/master/secure_your_aws/images/secure.jpg =250x)
+![](./images/secure.jpg =250x)
 
 # This repo is used for securing AWS
 ## It deals with:
