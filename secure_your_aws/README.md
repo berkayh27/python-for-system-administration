@@ -24,3 +24,4 @@
    1. Sends an email to a specific email address when new sec group created. 
 
 
+[![asciicast](https://asciinema.org/a/dtXcoxgpPhXSRW60s7cluMRro.png)](https://asciinema.org/a/dtXcoxgpPhXSRW60s7cluMRro)
