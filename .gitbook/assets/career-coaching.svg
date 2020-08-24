@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="528px" height="314px" viewBox="0 0 528 314" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#07385A" offset="0%"></stop>
+            <stop stop-color="#4EA2DA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-180.713419%" y1="0%" x2="100%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 0.789879)">
+            <rect id="Rectangle-60" fill="url(#linearGradient-1)" x="0" y="0.210120516" width="528" height="312.4"></rect>
+            <polygon id="Rectangle-61" fill="url(#linearGradient-2)" points="293.642928 0 528.211237 0 528.211237 308.306235 208.211237 313"></polygon>
+            <g id="Group-4" transform="translate(48.400000, 59.610121)" fill="#FFFFFF" font-family="Helvetica" font-weight="normal">
+                <text id="CAREER" font-size="107.712">
+                    <tspan x="0" y="105">CAREER</tspan>
+                </text>
+                <text id="COACHING" font-size="71.808" letter-spacing="6.34802437">
+                    <tspan x="4.488" y="174.6">COACHING</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
