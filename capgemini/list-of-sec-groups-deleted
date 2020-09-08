@@ -1,0 +1,114 @@
+ eu-central-1 before deletion 
+   sg-00219ca45070be8c9
+   sg-004cf0cb29b19dd40
+   sg-00551951e0ef437a6
+   sg-00a8d8eafb6e8d9f1
+   sg-01ff4b0c435511c8c
+   sg-022c1bdac88239c04
+   sg-026d1efe900025f9f
+   sg-02f18665bc712abf7
+   sg-032af9091cb8964e1
+   sg-0365014b940db16a1
+   sg-03679283dea72babb
+   sg-0397c1dc756518b45
+   sg-042935f4cc4552a12
+   sg-044d267b94d4d137f
+   sg-045214ba0f3777b80
+   sg-052494b2edd0629c5
+   sg-05268d41c3c41b80d
+   sg-056958b1c2700f68a
+   sg-05e16bb570713143d
+   sg-078bef787a4d6ba30
+   sg-07a656caaa57997b0
+   sg-083ccf498bc54d210
+   sg-085e17ecd51138041
+   sg-091baee32d3c1e663
+   sg-09426118dbf15e2a5
+   sg-095a271ac13672af7
+   sg-098a83da009194f75
+   sg-09a755338197beebc
+   sg-09eb9e4ee39aa1c5f
+   sg-0a8e1dd41671336a1
+   sg-0ad8bd5fd40b71233
+   sg-0b086f10b95350b56
+   sg-0c2fe1a77c157df8b
+   sg-0c504118ebc317608
+   sg-0c9f8c8dd71f279bc
+   sg-0cddc3d2574b9476c
+   sg-0cf9c7f7fc547eeba
+   sg-0dc10f8a2b593af92
+   sg-0e8918ad67c07d6bf
+   sg-0f74c2652b1d11c3e
+   sg-0f89ef21fd73be8e0
+   sg-0f95cb34f660cfe9a
+   sg-0fe2977e6a610d657
+
+
+eu-central-1 after deletion
+   sg-00a8d8eafb6e8d9f1
+   sg-026d1efe900025f9f
+   sg-0365014b940db16a1
+   sg-03679283dea72babb
+   sg-042935f4cc4552a12
+   sg-052494b2edd0629c5
+   sg-056958b1c2700f68a
+   sg-07a656caaa57997b0
+   sg-09426118dbf15e2a5
+   sg-09a755338197beebc
+   sg-0b086f10b95350b56
+   sg-0c2fe1a77c157df8b
+   sg-0c504118ebc317608
+   sg-0c9f8c8dd71f279bc
+   sg-0f74c2652b1d11c3e
+   sg-0f95cb34f660cfe9a
+
+
+
+Ap Southeast before deletion
+   sg-002e9223e2efcda71
+   sg-00b3cd08cbbf895b3
+   sg-0124661a3b851c987
+   sg-02079f065b445d162
+   sg-022f8cf2119f573f4
+   sg-029611c3ddef78ec5
+   sg-029ad9f265787db5c
+   sg-02e919f3ab1c93fe8
+   sg-0325044140b4eb0d2
+   sg-04172330ccc310a5c
+   sg-045e6ca1937709d16
+   sg-04a55218823642a07
+   sg-05c1e4ba8622fb317
+   sg-06ae2337e6d0cbdd7
+   sg-077a378efa3371aa7
+   sg-08333a681b5183924
+   sg-08ed4b046f5436c3f
+   sg-0a8cc1aee751993d8
+   sg-0ab7bbd49857b17eb
+   sg-0c9762e00ef772185
+   sg-0cb90d9f9ac3c2030
+   sg-0d24f1e303e7890f9
+   sg-0d70d55a3053b3411
+   sg-0d899da88ccdb5c3c
+   sg-0e34669a0b746e5c1
+   sg-0ebeedab829fc620a
+
+Ap Southeast after deletion
+  sg-002e9223e2efcda71
+   sg-00b3cd08cbbf895b3
+   sg-02079f065b445d162
+   sg-022f8cf2119f573f4
+   sg-029611c3ddef78ec5
+   sg-029ad9f265787db5c
+   sg-02e919f3ab1c93fe8
+   sg-0325044140b4eb0d2
+   sg-04a55218823642a07
+   sg-077a378efa3371aa7
+   sg-08333a681b5183924
+   sg-08ed4b046f5436c3f
+   sg-0a8cc1aee751993d8
+   sg-0ab7bbd49857b17eb
+   sg-0c9762e00ef772185
+   sg-0cb90d9f9ac3c2030
+   sg-0d24f1e303e7890f9
+   sg-0d70d55a3053b3411
+   sg-0ebeedab829fc620a
